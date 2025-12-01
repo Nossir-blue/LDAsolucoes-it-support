@@ -1,0 +1,51 @@
+@import "colors.css";
+@import "base.css";
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--bg-secundary);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 900;
+    display: flex;
+    align-items: baseline;
+}
+
+span {
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+section {
+    width: 22em;
+    border: 1px solid black;
+    border-radius: 14px;
+    background-color: var(--bg-secundary);
+    color: var(--bg-primary);
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    border: 1px solid black;
+    width: 50em;
+}
+
+.whatsapp-icon {
+    width: 10%;
+}
