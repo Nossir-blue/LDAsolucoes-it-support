@@ -7,6 +7,7 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const PORT = process.env.PORT || 5000;
+const HOST = process.env.HOST || '0.0.0.0';
 const app = express();
 
 app.use(express.json());
@@ -17,4 +18,4 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname, 'public');
 })
 
-app.listen(PORT, () => console.log(`Eavesdroppin in http://127.0.0.1:${PORT}`));
+app.listen(PORT, HOST, () => console.log(`Eavesdroppin in http://${HOST}:${PORT}`));
