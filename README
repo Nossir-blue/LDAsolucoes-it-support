@@ -1,0 +1,2 @@
+Filter 1 = filter: brightness(0) saturate(100%) invert(32%) sepia(94%) saturate(1749%) hue-rotate(327deg) brightness(92%);
+Filter 2 = filter: brightness(0) saturate(100%) invert(12%) sepia(62%) saturate(940%) hue-rotate(194deg) brightness(85%);

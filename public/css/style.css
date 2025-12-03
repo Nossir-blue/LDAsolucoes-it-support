@@ -11,41 +11,55 @@ header {
     justify-content: center;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-weight: 900;
     display: flex;
     align-items: baseline;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 0;
+    align-self: flex-end;
 }
 
 span {
     font-weight: 700;
     font-size: 0.8em;
-}
-
-section {
-    width: 22em;
-    border: 1px solid black;
-    border-radius: 14px;
-    background-color: var(--bg-secundary);
-    color: var(--bg-primary);
-}
-
-img {
-    width: 100%;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-}
-
-article {
-    display: flex;
-    justify-content: center;
+    margin-left: 0.2rem;
 }
 
 .contact {
     border: 1px solid black;
-    width: 50em;
+    width: 30em;
 }
 
-.whatsapp-icon {
-    width: 10%;
+article {
+    display: flex;
+    justify-content: space-evenly;
 }
+
+section {
+    width: 22em;
+    height: 34em;
+    text-align: center;
+    background-color: var(--bg-secundary);
+    color: var(--bg-primary);
+    border-radius: 4%;
+}
+
+.card-one > h1 {
+    
+}
+
+.service {
+    width: 100%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
