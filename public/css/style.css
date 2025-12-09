@@ -26,19 +26,64 @@ header > h2 {
     text-align: end;
 }
 
+/* cards */
+
 .container {
+    margin-top: 3em;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    background-color: var(--secundary-clr);
+    border-radius: 2em;
+    margin-bottom: 2em;
+}
+
+.card > img {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.card > h2 {
+    text-align: center;
+    background-color: var(--secundary-clr);
+}
+
+.card > p {
+    align-self: center;
+    text-align: center;
+    width: 80%;
+        background-color: var(--secundary-clr);
+}
+
+.card > button {
+    align-self: center;
+    width: 80%;
+    margin-bottom: 1em;
 }
 
 /* buttons */
+.container.whatsapp {
+    width: 60%;
+}
 
 .sup {
+    border: 5px solid var(--secundary-clr);
     display: flex;
-    width: ;
+    align-items: center;
+    padding-left: 3em;
+    font-size: 1.4em;
+    background-color: var(--secundary-clr);
+    margin-bottom: 2em;
+}
+ 
+.container.whatsapp > a > button > svg {
+    width: 3em;
+    margin-right: 1em;
 }

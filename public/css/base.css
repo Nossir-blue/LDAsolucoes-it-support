@@ -21,3 +21,9 @@ button {
     border: none;
     padding: 0.8em 1.2em;
 }
+
+svg {
+    background: none;
+    margin: 0;
+    padding: 0;
+}
