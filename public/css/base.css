@@ -1,0 +1,23 @@
+@import url("colors.css");
+
+*, *::after, *::before { box-sizing: border-box;}
+
+* {
+    background-color: var(--bg-clr);
+    color: var(--tertiary-clr);
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    padding: 0.8em 1.2em;
+}
